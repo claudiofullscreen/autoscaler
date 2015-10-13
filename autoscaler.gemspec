@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "autoscaler/version"
 
 Gem::Specification.new do |s|
-  s.name        = "autoscaler"
+  s.name        = "autoscale"
   s.version     = Autoscaler::VERSION
   s.authors     = ["Justin Love", "Fix Peña"]
   s.email       = ["git@JustinLove.name"]
@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency "heroku-api"
 
   s.add_development_dependency "bundler"
-  s.add_development_dependency "rspec"
+  s.add_development_dependency "rspec", "< 3"
   s.add_development_dependency "guard-rspec"
   s.add_development_dependency "guard-process"
 end
