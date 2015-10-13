@@ -1,4 +1,5 @@
 require 'celluloid'
+require 'celluloid/supervision'
 
 module Autoscaler
   module Sidekiq

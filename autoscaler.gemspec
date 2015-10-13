@@ -18,11 +18,9 @@ Gem::Specification.new do |s|
 
   s.require_paths = ["lib"]
 
-  s.add_runtime_dependency "sidekiq", '~> 3'
+  s.add_runtime_dependency "sidekiq", '~> 3.5'
   s.add_runtime_dependency "heroku-api"
 
   s.add_development_dependency "bundler"
   s.add_development_dependency "rspec", "< 3"
-  s.add_development_dependency "guard-rspec"
-  s.add_development_dependency "guard-process"
 end
